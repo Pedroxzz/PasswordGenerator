@@ -1,23 +1,16 @@
-#Version 1.2
+#Version 1.3
 import random
+import string
 
-letras_minusculas = chr(random.randint(97,122))
-letras_maiusculas = chr(random.randint(65,90))
-char_especial =chr(random.randint(33,64))
-lista_numeros = []
-senha_lista = []
+def gerar_senha(tamanho):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    
+    senha = ''.join(random.choice(caracteres) for i in range(tamanho))
+    
+    return senha
 
-for i in range(6):
-    numeros = random.randrange(9)
-    lista_numeros.append(numeros)
-
-random.shuffle(lista_numeros)
-senha_lista = letras_maiusculas, letras_minusculas,char_especial
-senha_lista = list(senha_lista)
-senha_lista.extend(lista_numeros)
-random.shuffle(senha_lista)
-
-senha_lista = str(senha_lista).strip('[]')
-senha_lista = senha_lista.replace(',','')
-
-print(senha_lista)
+tamanho_senha = int(input('Digite o tamanho da senha: '))
+senha = gerar_senha(tamanho_senha)
+print(senha)
+print('Senha gerada com sucesso !!!')
+input('')

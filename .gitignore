@@ -1,0 +1,17 @@
+build/passwordGenerator/Analysis-00.toc
+build/passwordGenerator/base_library.zip
+build/passwordGenerator/COLLECT-00.toc
+build/passwordGenerator/EXE-00.toc
+build/passwordGenerator/passwordGenerator.exe
+build/passwordGenerator/passwordGenerator.exe.manifest
+build/passwordGenerator/passwordGenerator.pkg
+build/passwordGenerator/PKG-00.toc
+build/passwordGenerator/PYZ-00.pyz
+build/passwordGenerator/PYZ-00.toc
+build/passwordGenerator/warn-passwordGenerator.txt
+build/passwordGenerator/xref-passwordGenerator.html
+build/passwordGenerator/localpycs/pyimod01_archive.pyc
+build/passwordGenerator/localpycs/pyimod02_importers.pyc
+build/passwordGenerator/localpycs/pyimod03_ctypes.pyc
+build/passwordGenerator/localpycs/pyimod04_pywin32.pyc
+build/passwordGenerator/localpycs/struct.pyc
