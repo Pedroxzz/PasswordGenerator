@@ -1,11 +1,11 @@
-#Version 1.5
+#Version 1.5.1
 import random
 import string
 
 def main_menu():
     while True:
-        print('\033[31m1)\033[m Gerar senha')
-        print('\033[32m0)\033[m Exit')
+        print('1) Gerar senha')
+        print('0) Exit')
         
         opcao = input("Digite a opção: ")
 
