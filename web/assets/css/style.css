@@ -11,12 +11,13 @@
     --color-dark-900: #000;
 
     /* Blue*/
+    --backgound-index: hsla(210, 55%, 85%);
     --color-blue-50: #12BAF8;
     --color-blue-100: #05759E;
     --color-blue-200: #034963;
 
     /* Gradient */
-    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
+    --color-gradient: linear-gradient(90deg, var(--backgound-index), var(--color-blue-100), var(--color-blue-200));
 }
 
 /* General */
